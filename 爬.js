@@ -3,7 +3,7 @@ const http = require('http')
 const cheerio = require('cheerio')
 const fs = require('fs')
 
-let url = 'https://www.mi.com/index.html'
+let url = 'https://selfreport.shu.edu.cn/DayReport.aspx'
 https.get(url, (res) => {
   let error;
   const { statusCode } = res;
